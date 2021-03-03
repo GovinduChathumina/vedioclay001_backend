@@ -7,7 +7,7 @@ const cors = require("cors");
 const mongoose = require('mongoose')
 
 var corsOptions = {
-    origin: "http://167.71.237.60"
+    origin: "http://vedioclay-001-o6obi.ondigitalocean.app"
   };
   
   app.use(cors(corsOptions));
