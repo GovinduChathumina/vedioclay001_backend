@@ -47,4 +47,4 @@ app.use('/templates', templateRouter)
 const catergoryRouter = require('./routes/catergories')
 app.use('/catergories', catergoryRouter)
 
-app.listen(8080, () => console.log('Server Started'))
+app.listen(8081, () => console.log('Server Started'))
