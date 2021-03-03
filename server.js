@@ -7,7 +7,7 @@ const cors = require("cors");
 const mongoose = require('mongoose')
 
 var corsOptions = {
-    origin: "http://localhost:3000"
+    origin: "http://167.71.237.60"
   };
   
   app.use(cors(corsOptions));
